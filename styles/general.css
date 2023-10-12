@@ -1,0 +1,659 @@
+
+/* MOVILES 480px*/
+@media (min-width: 1px) and (max-width: 480px) {
+    header {
+            font-size: 8px !important;
+            top: 15px !important;
+    }
+    header [href] {
+            padding: 11px 10px !important;
+            /* relleno del padding interior (tamaño) */
+            margin: 5px 1px !important;
+            /* margen de espacio de las listas  altura/ancho */
+            width: 40px;
+            /* 90 px de ancho a cada lista */
+    }
+    
+    .logovalorant {
+       
+        width: 20px !important;
+    }
+
+    .header-2 {
+        font-size: 8px !important;
+            top: 60px !important;
+    }
+    
+    .header-2 [href] {
+        padding: 8px 10px !important;
+            /* relleno del padding interior (tamaño) */
+            margin: 5px 3px !important;
+            /* margen de espacio de las listas  altura/ancho */
+            
+    }
+    
+    .pie {
+        height: 20px !important;
+        line-height: 20px !important; 
+        font-size: 10px !important;
+    }
+    
+    
+
+    .agentescontenedores {
+    
+        margin-top: 900px !important;
+        }
+
+    
+    .login {
+            font-size: 8px !important;
+            top: 80px !important;
+    }
+    .login [href] {
+            padding: 6px 3px !important;
+            /* relleno del padding interior (tamaño) */
+            margin: 5px 1px !important;
+            /* margen de espacio de las listas  altura/ancho */
+            width: 40px;
+            /* 90 px de ancho a cada lista */
+    }
+    
+    form {
+        width: 100%;
+        margin: 10px; 
+    
+    }
+    
+    
+    
+}
+
+/* TABLETS  768px*/
+@media (min-width: 481px) and (max-width: 768px) {
+    header {
+            font-size: 13px !important;
+            top: 38px !important;
+    }
+    header [href] {
+            padding: 16px 16px !important;
+            /* relleno del padding interior (tamaño) */
+            margin: 5px 3px !important;
+            /* margen de espacio de las listas  altura/ancho */
+            width: 40px;
+            /* 90 px de ancho a cada lista */
+    }
+    
+    
+    
+    .header-2 {
+        font-size: 13px !important;
+            top: 100px !important;
+    }
+    
+    .header-2 [href] {
+        padding: 8px 10px !important;
+            /* relleno del padding interior (tamaño) */
+            margin: 5px 3px !important;
+            /* margen de espacio de las listas  altura/ancho */
+            
+    }
+    
+    
+    
+    .agentescontenedores {
+    
+        margin-top: 900px !important;
+        }
+
+    .login {
+        font-size: 13px !important;
+        top: 110px !important;
+    }
+    .login [href] {
+        padding: 8px 10px !important;
+        /* relleno del padding interior (tamaño) */
+        margin: 5px 3px !important;
+        /* margen de espacio de las listas  altura/ancho */
+        width: 40px;
+        /* 90 px de ancho a cada lista */
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+/* PAG INICIO */
+
+.video-fondo {
+    
+position: absolute; 
+/* Establece el posicionamiento de la imagen como absoluto */
+top: 0;
+/* coloca el video en la parte superior */
+left: 50%; 
+/*moverá el video a la izquierda terminando en el centro del contenedor */
+transform: translate(-50%, 0%);
+/* moverá el video exactamente al 50% de su ancho, y NO en el centro de todo el elemento Contenedor! */
+min-height: 100vh; 
+/*  la altura tomará el 100 % de la altura de la ventana gráfica  */
+z-index: -1; 
+/*  se posiciona en una capa inferior  */
+
+
+}
+
+.container-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+
+
+
+    /*  la altura tomará el 100 % de la altura de la ventana gráfica  */
+}
+
+.logovalorant {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+}
+
+
+.logovalorant2 {
+    position: absolute;
+    left: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 90px;
+}
+
+
+
+
+
+@media (min-width: 1px) and (max-width: 1044px) {
+.logovalorant2 {
+display: none!important;  
+}
+
+
+}
+
+html {
+
+    height: 100%;
+    margin: 0;
+
+}
+
+body {
+    
+
+    min-width: 320px;
+
+
+margin: 0px;
+min-width: 320px;   
+/* en resoluciones inferiores a 320px reduce todo sin crear margenes negros  */
+
+/*Estas dos propiedades hacen que no haya un scroll lateral  */
+
+background-color: #161616;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+
+box-shadow: 5px 5px 50px rgba(255, 0, 0, 0.699);
+top: 40px;
+width: 100%;
+z-index: 1;
+position: absolute;
+/*se coloca adentro del ancestro posicionado más cercano */
+text-align: center;
+/* centra el texto de las listas  */
+background-color: #ff1212;
+border: 1px solid;
+/* Borde de 1px al header */
+min-width: 320px;
+}
+
+header [href] {
+
+/*  elementos de la lista horizontalmente  */
+padding: 20px 29px;
+/* relleno del padding interior (tamaño) */
+margin: 1px 15px;
+/* margen de espacio de las listas  altura/ancho */
+color: #000000;
+background-color: #ff1212;
+font-family: 'Oswald', sans-serif;
+/* tipografia minimalista */
+font-weight: 1000;
+/* grosor de la fuente */
+text-transform: uppercase;
+/* Mayusculas */
+border: 1px solid black;
+/* Borde de 1px a las listas*/
+
+text-decoration: none;
+/* quitar subrayado*/
+}
+
+header [href]:hover {
+    /* animacion de las etiquetas en blanco */
+    color: #ebebeb;
+    
+    background-color: #000000;
+    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
+    transform: scale(1.07) !important;
+}
+
+.login {
+    font-size: 200p;
+    left: 5%;
+    top: 200px;
+    z-index: 1;
+    position: absolute;
+    /*se coloca adentro del ancestro posicionado más cercano */
+    min-width: 320px;
+}
+
+.login [href] {
+    /*  INTERIOR ENLACES  */
+    padding: 20px 29px;
+    /* relleno del padding interior (tamaño) */
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    /* tipografia minimalista */
+    font-weight: 1000;
+    /* grosor de la fuente */
+    border: black 1px solid;
+    /* Borde de 1px a las listas*/
+    background-color: rgb(255, 0, 0);
+    text-decoration: none;
+    /* quitar subrayado*/
+}
+
+.login [href]:hover {
+    /* animacion de las etiquetas en blanco */
+    color: #f0f0f0;
+    background-color: #000000;
+}
+
+.welcome h1 {
+    color: #fffefe;
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    text-transform: uppercase;
+    /* Mayusculas */
+}
+
+
+
+/* LOGIN */
+
+.divformulario {
+    font-family: 'Oswald', sans-serif;
+/* tipografia minimalista */
+font-size: 120%;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.fondo-login {
+
+
+    
+    
+    min-width: 480;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+form {
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.8);
+border-radius: 10px;
+}
+
+.titulologin {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"],input[type="password"] {
+
+width: 90%;
+padding: 10px;
+border-radius: 5px;
+border: none;
+margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    border-radius: 5px;
+    background-color: #ff0c0c;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #000000;
+}
+
+
+
+/* PAG AGENTES */
+
+.galeria-agentes {
+
+margin-top: 30px;
+max-height: 800px;
+min-width: 320px;
+position: absolute;
+top: 22%;
+;
+width: 50%;
+
+
+
+left: 50%; 
+/*moverá el contenedor a la izquierda terminando en el centro del contenedor padre*/
+transform: translate(-44%, 0%);
+/* moverá el contenedor exactamente al 50% de su ancho, y NO en el centro de todo el elemento Contenedor! */
+}
+
+.imagen-agentes {
+   
+background-color: #00000091;
+margin: 12px ;
+width: 15%;
+border: 1px solid;
+border-color: rgb(255, 255, 255);
+
+}
+
+.imagen-agentes:hover {
+    transform: scale(1.3);
+background-color: #ff1212;
+box-shadow: 7px 7px 90px rgb(255, 0, 0);
+}
+
+.agentescontenedores {
+
+margin-top: 1300px;
+}
+
+.informacion-agente1 {
+    transform: scale(0.9); 
+ background-color: #161616d3;
+    margin: 56% 15%;
+    color: white;
+    border: red solid 1PX;
+    font-size: 1.3vw;
+    padding: 2%;
+    font-family:  sans-serif;
+}
+
+.imagen-completa {
+    
+    background-color: #00000091;
+    margin: 12px ;
+    width: 63%;
+    border: 1px solid;
+}
+
+.tituloagentes {
+
+font-family: 'Oswald', sans-serif;
+font-size: 7vw;
+margin: 4px ;
+    
+}
+
+.logosubir {
+
+    width: 40px;
+}
+
+
+
+/* ARMAS*/
+
+#brillo {
+filter: brightness();
+}
+
+.header-2 {
+
+
+top: 100px;
+width: 100%;
+z-index: 1;
+position: absolute;
+/*se coloca adentro del ancestro posicionado más cercano */
+text-align: center;
+/* centra el texto de las listas  */
+background-color: #ff000000;
+border: 1px solid #ff000000;
+/* Borde de 1px al header */
+min-width: 320px;
+}
+
+.header-2 ul {
+    padding: 0%;
+}
+
+.header-2 [href] {
+    
+display:grid;
+/*  elementos de la lista horizontalmente  */
+padding: 20px 29px;
+/* relleno del padding interior (tamaño) */
+margin: 30px 300px;
+/* margen de espacio de las listas  altura/ancho */
+color: #000000;
+background-color: #ff1212;
+font-family: 'Oswald', sans-serif;
+/* tipografia minimalista */
+font-weight: 1000;
+/* grosor de la fuente */
+text-transform: uppercase;
+/* Mayusculas */
+border: 1px solid;
+/* Borde de 1px a las listas*/
+
+text-decoration: none;
+/* quitar subrayado*/
+}
+
+.header-2 [href]:hover {
+/* animacion de las etiquetas en blanco */
+color:rgb(241, 241, 241);
+background-color: #000000;
+transform: scale(1.07);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
+}
+
+.informacion-armas {
+    transform: scale(0.7); 
+    top: 300px;
+    box-shadow: 5px 5px 50px rgb(53, 0, 0);
+    border: #ff0000 1px solid;
+    background-color: #161616d5;
+    position: relative;
+    font-family: sans-serif;
+    margin: 25% 15%;
+    color: white;
+    font-size: 1.3vw;
+    padding: 1%;
+}
+
+.imagen-armas {
+    
+    background-color: #00000091;
+    margin: 12px ;
+    width: 90%;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    
+}
+
+.tituloarmas {
+        padding:0%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 6vw;
+        margin: 4px ;
+            
+}
+
+
+
+/* MAPAS*/
+
+.generalmapa {
+  
+    font-family: sans-serif;
+    padding: 13%;
+    width: 60%;
+    margin: 0 auto; /* Centro horizontalmente el contenedor */
+   
+
+}
+
+.containermapa {
+position: relative; /* Establece el posicionamiento del contenedor como relativo */
+overflow: hidden; /* Oculta cualquier contenido que se desborda del contenedor */
+
+}
+
+.containermapa:hover img {
+    transform: scale(1.09);
+}
+
+.containermapa img {
+    margin-bottom: 40px;
+    width: 100%;
+    min-width: 500px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.content {
+    
+    line-height: 25px;
+    background-color: rgba(0,0,0, .7);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    text-align:justify ;
+    height: 97%;
+    color: #FFF;
+    transition: all .5s;
+}
+
+.content h3 {
+    font-size: 33px !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid #808080;
+    padding: 20px 10px;
+}
+
+.content p {
+    font-size: 24px; /* Tamaño de fuente */
+  line-height: 30px; /* Espacio vertical entre las letras */
+    padding: 10px 20px 15px 20px;
+    border-bottom: 1px solid #808080;
+}
+
+.containermapa:hover .content {
+    top: 0;
+}
+
+@media (min-width: 0px) and (max-width: 1391px) {
+    .content p,.content h3 {
+        display:none !important;  
+    }
+}
+
+
+
+/* RANGOS*/
+
+.imagenrangos {
+    
+width: 70%;
+margin: 0 auto; /* Establece márgenes laterales automáticos para centrar el elemento horizontalmente */
+
+}
+
+.contenedorrangos {
+filter:saturate(2) contrast(1.10);  
+
+position: relative; /* Establece el posicionamiento del contenedor como relativo */
+overflow: hidden; /* Oculta cualquier contenido que se desborda del contenedor */
+top: 200px;
+text-align: center; /* Centra el contenido horizontalmente */
+}
+
+
+
+/* FOOSTER */
+
+.pie {
+    font-size: 13px;
+    color: silver;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(0, 0, 0, 0.39);
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 9; 
+}
+
+
+
